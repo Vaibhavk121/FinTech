@@ -40,13 +40,11 @@ const Cta = () => {
 
             <div className="flex gap-4">
               <img
-                src="../../public/Fintech-Google-Play.svg"
-                alt={Google}
+                src={Google}
                 className="h-12"
               />
               <img
-                src="../../public/Fintech-App-Store.svg"
-                alt={Apple}
+                src={Apple}
                 className="h-12"
               />
             </div>
