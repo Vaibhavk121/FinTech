@@ -1,15 +1,19 @@
+import Hand1 from '/testimonial/hand1.svg?url'
+import Hand2 from '/testimonial/hand2.svg?url'
+import Profile from '/testimonial/profile.svg?url'
+
 const Testimonial = () => {
   return (
     <section className="relative bg-gray-50 py-16 h-[514px] overflow-hidden">
 
       <img
-        src="../../public/testimonial/hand1.svg"
+        src={Hand1}
         alt="left hand"
         className="absolute left-0 bottom-50 w-48 md:w-64"
       />
 
       <img
-        src="../../public/testimonial/hand2.svg"
+        src={Hand2}
         alt="right hand"
         className="absolute right-0 bottom-35 w-[295px] md:w-64"
       />
@@ -19,7 +23,7 @@ const Testimonial = () => {
 
         <div className="flex items-center ml-30 mt-30 gap-3 mb-6">
           <img
-            src="../../public/testimonial/profile.svg"
+            src={Profile}
             alt="Sara Workman"
             className="w-12 h-12 rounded-full object-cover"
           />

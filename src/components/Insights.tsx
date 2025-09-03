@@ -9,7 +9,8 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from "recharts";
-
+import Card1 from '../../public/insights/card1.svg'
+import Card2 from '../../public/insights/card2.svg'
 
 const dataMonth = [
   { name: "Jan", value: 100000 },
@@ -93,12 +94,12 @@ const Insights = () => {
             <div className="flex flex-col gap-4">
               <div className="flex flex-col md:flex-row gap-4">
                 <img
-                  src="../../public/insights/card1.svg"
+                  src={Card1}
                   alt="Insights card 1"
                   className="w-full md:w-1/2 object-contain"
                 />
                 <img
-                  src="../../public/insights/card2.svg"
+                  src={Card2}
                   alt="Insights card 2"
                   className="w-full md:w-1/2 object-contain"
                 />

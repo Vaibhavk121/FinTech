@@ -1,5 +1,5 @@
 import Tick from '../../public/icons/tick.tsx'
-// import Heroimage from '../../public/heroimage.svg'
+import Heroimage from '/heroimage.svg'
 const Hero = () => {
     
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <img src="../../public/heroimage.svg" alt="" />
+            <img src={Heroimage} />
           </div>
         </div>
       </div>

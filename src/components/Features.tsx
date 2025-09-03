@@ -44,7 +44,7 @@ const Features = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center bg-gray-300 rounded-4xl p-6">
+            <div className="flex flex-col justify-between text-center bg-gray-300 rounded-4xl p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Facilitate Financial <br /> Services
               </h2>
@@ -52,7 +52,7 @@ const Features = () => {
                 Consequat curae neque amet auctor, sed fames sem tristique,
                 nullam nisi maecenas.
               </p>
-              <div className="bg-white h-[395px] rounded-2xl p-6 shadow-lg">
+              <div className=" bg-white h-[395px] rounded-2xl p-6  shadow-lg">
                 <h4 className="font-semibold ">Payments</h4>
                 <p>20 febuary 2022</p>
 
@@ -159,11 +159,10 @@ const Features = () => {
                 nullam nisi maecenas.
               </p>
               <div className="bg-white h-[395px] rounded-2xl p-6 shadow-lg">
-                <h4 className="font-semibold ">My Saving</h4>
-                <p>20 febuary 2022</p>
+                
 
                 <div className="p-4 w-full max-w-sm">
-                  <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center justify-between mb-8">
                     <h2 className="font-semibold text-lg">Statistic</h2>
                     <select
                       value={timeframe}
@@ -183,7 +182,7 @@ const Features = () => {
                   </p>
 
                   <div className="flex items-center">
-                    <div className="w-32 h-32">
+                    <div className="w-50 h-50">
                       <ResponsiveContainer>
                         <PieChart>
                           <Pie
@@ -195,9 +194,9 @@ const Features = () => {
                             outerRadius={55}
                             stroke="none"
                           >
-                            <Cell fill="#d1d5db" /> {/* gray-300 */}
+                            <Cell fill="#d1d5db" /> 
                             <Cell fill="#000000" />
-                            <Cell fill="#f97316" /> {/* orange-500 */}
+                            <Cell fill="#f97316" />
                           </Pie>
                         </PieChart>
                       </ResponsiveContainer>

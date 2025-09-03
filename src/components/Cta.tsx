@@ -1,4 +1,7 @@
 import Greentick from '../../public/icons/Greentick.tsx';
+import Google from "/Fintech-Google-Play.svg"
+import Apple from '/Fintech-App-Store.svg'
+import CTA from '/Ctaimage.svg'
 const Cta = () => {
   return (
     <section className="bg-white py-20">
@@ -38,19 +41,19 @@ const Cta = () => {
             <div className="flex gap-4">
               <img
                 src="../../public/Fintech-Google-Play.svg"
-                alt="Google Play"
+                alt={Google}
                 className="h-12"
               />
               <img
                 src="../../public/Fintech-App-Store.svg"
-                alt="App Store"
+                alt={Apple}
                 className="h-12"
               />
             </div>
           </div>
 
           <div className="relative">
-            <img src="../../public/Ctaimage.svg" alt="" />
+            <img src={CTA}/>
           </div>
         </div>
       </div>
