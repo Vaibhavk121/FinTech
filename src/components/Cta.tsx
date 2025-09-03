@@ -1,6 +1,6 @@
 import Greentick from '../../public/icons/Greentick.tsx';
-import Google from "/Fintech-Google-Play.svg"
-import Apple from '/Fintech-App-Store.svg'
+import Google from "../../public/Fintech-Google-Play.svg"
+import Apple from '../../public/Fintech-App-Store.svg'
 import CTA from '/Ctaimage.svg'
 const Cta = () => {
   return (

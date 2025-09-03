@@ -9,13 +9,13 @@ const Testimonial = () => {
       <img
         src={Hand1}
         alt="left hand"
-        className="absolute left-0 bottom-50 w-48 md:w-64"
+        className="absolute left-0 bottom-50 w-48 hidden lg:block lg:w-64"
       />
 
       <img
         src={Hand2}
         alt="right hand"
-        className="absolute right-0 bottom-35 w-[295px] md:w-64"
+        className="absolute right-0 bottom-35 w-[295px] hidden lg:block lg:w-64"
       />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
